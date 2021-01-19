@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 20px;
+  padding-left: 370px;
+  padding-bottom: 50px;
+  color: wheat;
+  padding-right: 370px;
+  background: url("/img/background.jpg") 20% round;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.self-image {
+  float: right;
+}
+.name {
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.info,
+li {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: brown;
+}
